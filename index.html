@@ -1,0 +1,203 @@
+<!DOCTYPE html> 
+<html>
+
+  <head>
+    <title>Button Click Example</title>
+    <script src="js/scripts.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+    <p>This is paragraph 1</p>
+    <p>This is paragrapph 2</p>
+    <!-- There is a difference between the size of heading -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2> 
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <!-- Text formatting -->
+    <p>This text is <b>bold</b></p>
+    <p>This is <sub>subcript</sub> and <sup>supercript</sup></p>
+    <h1>Progamming language you can learn</h1>
+    <!-- List in HTML to make undered and ordered list -->
+    <ul type="progamming_language">
+      <li>
+        Javascript
+      </li>
+      <li>
+        PHP
+      </li>
+      <li>
+        Python
+      </li>
+      <li>
+        Kotlin
+      </li>
+    </ul>
+    <ol type="I">
+      <li>Mango</li>
+      <ol type = "i">
+        <li>Blue Mango</li>
+        <li> Red Mango</li>
+      </ol>
+      <li>Orange</li>
+      <li>Potato</li>
+    </ol>
+    <!-- Table, <tr> for table row <td> for table division <th> for table header -->
+    <table>
+      <tr>
+        <!-- Added a colspan in here -->
+        <th colspan="2">Company</th>
+        <!-- Added rowspan -->
+        <th rowspan="1">Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfred Futterkiste</td>
+        <td>MariaAnders</td>
+        <td>AsepHutalalo</td>
+      </tr>
+      <tr>
+        <td>Ceontro Commercial</td>
+        <td>America</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+    <!-- Image in HTML and anchor  -->
+    <img src="https://i.pinimg.com/736x/93/69/1e/93691e82745e0015c27dbebe3539ab41.jpg">
+    <p>
+      <a href="https://www.google.com/" target="__blank">
+        Google
+      </a>
+    </p>
+    <form>
+      <label for="name">name</label>
+      <input name="name" type="text">
+      <label for="password">password</label>
+      <input name="password" type="password">
+      <button type="button">
+        OK
+      </button>
+      <button type="button" onclick="doSomething()">
+        Apply
+      </button>
+    </form>
+    <p>Mninuman Favoritmu?</p>
+    <select>
+      <optgroup label="Juice">
+        <option>Mango Juice</option>
+        <option>Orange Juice</option>
+      </optgroup>
+      <optgroup label="Slurpy">
+        <option>Mango Slurpy</option>
+        <option>Orange Slurpy</option>
+      </optgroup>
+    </select>
+    <!--
+    <header>
+    <nav>
+    <section>
+    <article>
+    <aside>
+    <footer>
+    <details>
+    <summary>
+    -->
+    <!-- Bold -->
+    <b>This is Bold</b>
+    <br>
+    <strong>This is also Bold</strong>
+    <!-- Div tag is universal semantic and doesn't have any meaning -->
+
+    <!-- making calculator -->
+    <table>
+      <tr>
+        <th colspan="4"><input type="text" name="display"> </th>
+      </tr>
+      <tr>
+        <td colspan="2"><button id="red">AC</button></td>
+        <td><button id="blue">C</button></td>
+        <td><button id="orange">*</button></td>
+      </tr>
+      <tr>
+        <td><button>7</button></td>
+        <td><button>8</button></td>
+        <td><button>9</button></td>
+        <td><button id="orange">/</button></td>
+      </tr>
+      <tr>
+        <td><button>4</button></td>
+        <td><button>5</button></td>
+        <td><button>6</button></td>
+        <td><button id="orange">+</button></td>
+      </tr>
+      <tr>
+        <td><button>1</button></td>
+        <td><button>2</button></td>
+        <td><button>3</button></td>
+        <td><button id="orange">-</button></td>
+      </tr>
+      <tr>
+        <td><button id="black">+-</button></td>
+        <td><button>0</button></td>
+        <td><button id="black">.</button></td>
+        <td><button id="green">=</button></td>
+      </tr>
+    </table>
+
+    <h1>Hello World</h1>
+    <h2>Hai</h2>
+    <p class="car">This is avanza</p>
+    <p class="car" id="alya">This is Alya</p>
+
+    <a href="https://www.w3schools.com">w3schools.com</a>
+    <a href="https://www.disney.com">disney.com</a>
+    <a href="https://www.wikipedia.org">wikipedia.org</a>
+
+    <div>
+    </div>
+    <span>Abc</span>
+    <span>Abc</span>
+    <span>Abc</span>
+
+    <nav class="container">
+      <div>Home</div>
+      <div>Logout</div>
+      <div>Back</div>
+    </nav>
+
+    <div class="wrapper">
+      <div class="box">A</div>
+      <div class="box">B</div>
+      <div class="box">C</div>
+      <div class="box">D</div>
+      <div class="box">E</div>
+      <div class="box">F</div>
+    </div>
+    <div id="grid-container">
+      <input type="text" name="display">
+      <button id="red">AC</button>
+      <button>C</button>
+      <button>*</button>
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>/</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>+</button>
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>-</button>
+      <button>+-</button>
+      <button>0</button>
+      <button>.</button>
+      <button>=</button>
+    </div>
+  </body>
+
+</html>
